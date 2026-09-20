@@ -1,0 +1,102 @@
+/* Page background and centering */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card container */
+.container {
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Logo */
+.logo {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Heading & Paragraph */
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 16px 0;
+}
+
+p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.4;
+  margin: 0 0 24px 0;
+}
+
+/* Form & Input fields */
+form {
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #d1d1d1;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  outline: none;
+}
+
+input[type="email"]:focus {
+  border-color: #4CAF50;
+}
+
+/* Green Submit Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #a7e99c;
+  color: #1b4315;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #94e088;
+}
+
+/* Footer links at the bottom */
+.footer {
+  margin-top: 150px;
+  font-size: 13px;
+  color: #2b6e4e;
+}
+
+.footer a {
+  color: #2b6e4e;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
